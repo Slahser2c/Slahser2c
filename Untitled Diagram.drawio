@@ -7,7 +7,7 @@
         <mxCell id="EmIKRjpAbAzk9MXDX8uY-1" value="Atomikos Spring Framework" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="720" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="EmIKRjpAbAzk9MXDX8uY-2" value="核心模块" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="EmIKRjpAbAzk9MXDX8uY-1">
+        <mxCell id="EmIKRjpAbAzk9MXDX8uY-2" value="Core Module" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="EmIKRjpAbAzk9MXDX8uY-1">
           <mxGeometry y="30" width="720" height="570" as="geometry" />
         </mxCell>
         <mxCell id="EmIKRjpAbAzk9MXDX8uY-3" value="事务管理 (Transaction)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="EmIKRjpAbAzk9MXDX8uY-2">
@@ -40,14 +40,6 @@
         <mxCell id="EmIKRjpAbAzk9MXDX8uY-12" value="Dependeny" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="460" width="720" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="EmIKRjpAbAzk9MXDX8uY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EmIKRjpAbAzk9MXDX8uY-12" source="EmIKRjpAbAzk9MXDX8uY-13" target="EmIKRjpAbAzk9MXDX8uY-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="440" y="80" />
-              <mxPoint x="440" y="80" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="EmIKRjpAbAzk9MXDX8uY-13" value="Spring Boot 2.7.18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="EmIKRjpAbAzk9MXDX8uY-12">
           <mxGeometry y="30" width="720" height="40" as="geometry" />
         </mxCell>
@@ -59,12 +51,6 @@
         </mxCell>
         <mxCell id="EmIKRjpAbAzk9MXDX8uY-16" value="ActiveMQ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="EmIKRjpAbAzk9MXDX8uY-12">
           <mxGeometry y="150" width="720" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="EmIKRjpAbAzk9MXDX8uY-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EmIKRjpAbAzk9MXDX8uY-1" target="EmIKRjpAbAzk9MXDX8uY-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="450" as="sourcePoint" />
-            <mxPoint x="440" y="400" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
